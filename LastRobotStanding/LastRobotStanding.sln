@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LastRobotStanding", "LastRobotStanding\LastRobotStanding.pyproj", "{238E8996-37E5-47A8-AB18-7C217D51C5AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238E8996-37E5-47A8-AB18-7C217D51C5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238E8996-37E5-47A8-AB18-7C217D51C5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238E8996-37E5-47A8-AB18-7C217D51C5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238E8996-37E5-47A8-AB18-7C217D51C5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B30CD160-113F-46F3-8C33-C7900A11C925}
+	EndGlobalSection
+EndGlobal
