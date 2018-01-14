@@ -1,0 +1,75 @@
+#Try to organize it so that you can import new "decks", that inherit from a base deck class and only need the existing API. 
+#Allow these "decks" to reference new sounds, animations, and images. So that you can package deck *.py files with new resources for enhanced gameplay.
+
+Board state
+	Wall information
+	Cell information
+
+public player state
+	color
+	HP
+	visible modifiers (big, carbon, etc)
+	visibly carried item
+
+private self state
+	private hand list
+	public player state
+
+
+Private Game state
+	public game state
+	private self state
+
+Multimedia Event class
+	start time (relative not absolute time)
+	(sprite only) framerate
+		Path type (line only)
+			Start coordinates
+			End coordinates
+
+Game Event Class
+	#stuff like acid bath, etc
+	Event id
+	turns left
+	ref for virt func for manipulating game state #unnecessary to broadcast
+	Energy
+	Player who created it
+	ref for event-specific class, which virt function can use
+
+Public Game state
+	Public player states
+	Board state
+	multimedia event array (sounds, sprites)
+
+Serverside Game state
+	Game event array
+	public game state
+	#...?
+	
+Broadcast packet state (whole)
+	public game state
+	private self state
+	new chat messages
+	#active player UI servicing
+	#...
+	
+
+Client packet state
+	new chat message
+	#active player UI requests
+	#...
+
+Hand class
+	array of cards
+	hand limit
+	draw limit
+	#how will cards affecting hand limit be handled w/o hardcoding
+
+Card class
+	card id
+	card name #not needed to be broadcast?
+	card description #not needed to be broadcast?
+	virtual function for manipulating the game state (what do you do about multi step cards)
+	#...!
+	#active/inactive?
+	#card type? (attack etc)
