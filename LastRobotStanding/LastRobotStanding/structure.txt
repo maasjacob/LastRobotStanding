@@ -72,4 +72,4 @@ Card class
 	virtual function for manipulating the game state (what do you do about multi step cards)
 	#...!
 	#active/inactive?
-	#card type? (attack etc)
+	#card type? (attack etc)`
