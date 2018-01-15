@@ -37,6 +37,7 @@
     <Folder Include="LastRobotStanding\static\content\" />
     <Folder Include="LastRobotStanding\static\fonts\" />
     <Folder Include="LastRobotStanding\static\audio\" />
+    <Folder Include="LastRobotStanding\static\planning\" />
     <Folder Include="LastRobotStanding\static\tiles\" />
     <Folder Include="LastRobotStanding\static\scripts\" />
     <Folder Include="LastRobotStanding\templates\" />
@@ -74,6 +75,7 @@
     <Content Include="LastRobotStanding\static\audio\wall.wav" />
     <Content Include="LastRobotStanding\static\audio\wall_explosion.wav" />
     <Content Include="LastRobotStanding\static\audio\zap.wav" />
+    <Content Include="LastRobotStanding\static\planning\structure.txt" />
     <Content Include="LastRobotStanding\static\tiles\base_1.png" />
     <Content Include="LastRobotStanding\static\tiles\base_2.png" />
     <Content Include="LastRobotStanding\static\tiles\base_3.png" />
