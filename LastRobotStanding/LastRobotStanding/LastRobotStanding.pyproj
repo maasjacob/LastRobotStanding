@@ -27,6 +27,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="LastRobotStanding\static\base_v1_0.lib.py" />
+    <Compile Include="LastRobotStanding\static\board_classes.py" />
+    <Compile Include="LastRobotStanding\static\card_classes.py" />
+    <Compile Include="LastRobotStanding\static\player_class.py" />
     <Compile Include="runserver.py" />
     <Compile Include="LastRobotStanding\__init__.py" />
     <Compile Include="LastRobotStanding\views.py" />
